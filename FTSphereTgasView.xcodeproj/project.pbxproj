@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF9EB8D824F88E1C00C7C737 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EB8D724F88E1C00C7C737 /* YYWeakProxy.m */; };
+		EFCA9D5924F663010073443D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCA9D5824F663010073443D /* AppDelegate.m */; };
+		EFCA9D5F24F663010073443D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCA9D5E24F663010073443D /* ViewController.m */; };
+		EFCA9D6224F663010073443D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCA9D6024F663010073443D /* Main.storyboard */; };
+		EFCA9D6424F663020073443D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCA9D6324F663020073443D /* Assets.xcassets */; };
+		EFCA9D6724F663020073443D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCA9D6524F663020073443D /* LaunchScreen.storyboard */; };
+		EFCA9D6A24F663020073443D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCA9D6924F663020073443D /* main.m */; };
+		EFCA9D7224F6634F0073443D /* FTSphereTgasView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCA9D7124F6634F0073443D /* FTSphereTgasView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF9EB8D624F88E1C00C7C737 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		EF9EB8D724F88E1C00C7C737 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		EFCA9D5424F663010073443D /* FTSphereTgasView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTSphereTgasView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCA9D5724F663010073443D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFCA9D5824F663010073443D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFCA9D5D24F663010073443D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFCA9D5E24F663010073443D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFCA9D6124F663010073443D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFCA9D6324F663020073443D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCA9D6624F663020073443D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFCA9D6824F663020073443D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCA9D6924F663020073443D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFCA9D7024F6634F0073443D /* FTSphereTgasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSphereTgasView.h; sourceTree = "<group>"; };
+		EFCA9D7124F6634F0073443D /* FTSphereTgasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSphereTgasView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFCA9D5124F663010073443D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFCA9D4B24F663010073443D = {
+			isa = PBXGroup;
+			children = (
+				EFCA9D5624F663010073443D /* FTSphereTgasView */,
+				EFCA9D5524F663010073443D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFCA9D5524F663010073443D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCA9D5424F663010073443D /* FTSphereTgasView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFCA9D5624F663010073443D /* FTSphereTgasView */ = {
+			isa = PBXGroup;
+			children = (
+				EFCA9D5724F663010073443D /* AppDelegate.h */,
+				EFCA9D5824F663010073443D /* AppDelegate.m */,
+				EFCA9D5D24F663010073443D /* ViewController.h */,
+				EFCA9D5E24F663010073443D /* ViewController.m */,
+				EF9EB8D624F88E1C00C7C737 /* YYWeakProxy.h */,
+				EF9EB8D724F88E1C00C7C737 /* YYWeakProxy.m */,
+				EFCA9D7024F6634F0073443D /* FTSphereTgasView.h */,
+				EFCA9D7124F6634F0073443D /* FTSphereTgasView.m */,
+				EFCA9D6024F663010073443D /* Main.storyboard */,
+				EFCA9D6324F663020073443D /* Assets.xcassets */,
+				EFCA9D6524F663020073443D /* LaunchScreen.storyboard */,
+				EFCA9D6824F663020073443D /* Info.plist */,
+				EFCA9D6924F663020073443D /* main.m */,
+			);
+			path = FTSphereTgasView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFCA9D5324F663010073443D /* FTSphereTgasView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCA9D6D24F663020073443D /* Build configuration list for PBXNativeTarget "FTSphereTgasView" */;
+			buildPhases = (
+				EFCA9D5024F663010073443D /* Sources */,
+				EFCA9D5124F663010073443D /* Frameworks */,
+				EFCA9D5224F663010073443D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTSphereTgasView;
+			productName = FTSphereTgasView;
+			productReference = EFCA9D5424F663010073443D /* FTSphereTgasView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFCA9D4C24F663010073443D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "黄智浩";
+				TargetAttributes = {
+					EFCA9D5324F663010073443D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = EFCA9D4F24F663010073443D /* Build configuration list for PBXProject "FTSphereTgasView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFCA9D4B24F663010073443D;
+			productRefGroup = EFCA9D5524F663010073443D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFCA9D5324F663010073443D /* FTSphereTgasView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFCA9D5224F663010073443D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCA9D6724F663020073443D /* LaunchScreen.storyboard in Resources */,
+				EFCA9D6424F663020073443D /* Assets.xcassets in Resources */,
+				EFCA9D6224F663010073443D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFCA9D5024F663010073443D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCA9D5F24F663010073443D /* ViewController.m in Sources */,
+				EFCA9D5924F663010073443D /* AppDelegate.m in Sources */,
+				EFCA9D6A24F663020073443D /* main.m in Sources */,
+				EFCA9D7224F6634F0073443D /* FTSphereTgasView.m in Sources */,
+				EF9EB8D824F88E1C00C7C737 /* YYWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFCA9D6024F663010073443D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCA9D6124F663010073443D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFCA9D6524F663020073443D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCA9D6624F663020073443D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFCA9D6B24F663020073443D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFCA9D6C24F663020073443D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFCA9D6E24F663020073443D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTUM2R6VXT;
+				INFOPLIST_FILE = FTSphereTgasView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.huang.FTSphereTgasView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EFCA9D6F24F663020073443D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTUM2R6VXT;
+				INFOPLIST_FILE = FTSphereTgasView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.huang.FTSphereTgasView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFCA9D4F24F663010073443D /* Build configuration list for PBXProject "FTSphereTgasView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCA9D6B24F663020073443D /* Debug */,
+				EFCA9D6C24F663020073443D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCA9D6D24F663020073443D /* Build configuration list for PBXNativeTarget "FTSphereTgasView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCA9D6E24F663020073443D /* Debug */,
+				EFCA9D6F24F663020073443D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFCA9D4C24F663010073443D /* Project object */;
+}
